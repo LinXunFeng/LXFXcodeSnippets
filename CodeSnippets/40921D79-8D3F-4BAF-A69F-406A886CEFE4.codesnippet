@@ -3,22 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
+	<string>initUI</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#注释#&gt; */
-@property (nonatomic, weak) &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>fileprivate func initUI() {
+        
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CB13A767-1DA9-4422-8F05-1DC8B93F5416</string>
+	<string>40921D79-8D3F-4BAF-A69F-406A886CEFE4</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>initUI</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weak</string>
+	<string>initUI</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

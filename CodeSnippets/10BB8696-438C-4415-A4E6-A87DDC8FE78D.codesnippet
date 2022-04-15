@@ -3,22 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
+	<string>uiimage</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#注释#&gt; */
-@property (nonatomic, weak) &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>fileprivate let &lt;#name#&gt;ImgView: UIImageView = UIImageView().then {
+        $0.image = UIImage(named: &lt;#String#&gt;)
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CB13A767-1DA9-4422-8F05-1DC8B93F5416</string>
+	<string>10BB8696-438C-4415-A4E6-A87DDC8FE78D</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>uiimage</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weak</string>
+	<string>uiimage</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
